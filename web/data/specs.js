@@ -11,6 +11,7 @@ const specs = [
     tbcbuffs_raid: [],
     isConfirmed: !1,
     color: "#C41E3A",
+    wowhead: "K",
   },
   {
     class: "DK",
@@ -24,6 +25,7 @@ const specs = [
     tbcbuffs_raid: [],
     isConfirmed: !1,
     color: "#C41E3A",
+    wowhead: "L",
   },
   {
     class: "DK",
@@ -37,6 +39,7 @@ const specs = [
     tbcbuffs_raid: [],
     isConfirmed: !1,
     color: "#C41E3A",
+    wowhead: "M",
   },
   {
     class: "DK",
@@ -50,6 +53,7 @@ const specs = [
     tbcbuffs_raid: [],
     isConfirmed: !1,
     color: "#C41E3A",
+    wowhead: "K",
   },
   {
     class: "DK",
@@ -63,6 +67,7 @@ const specs = [
     tbcbuffs_raid: [],
     isConfirmed: !1,
     color: "#C41E3A",
+    wowhead: "L",
   },
   {
     class: "DK",
@@ -76,6 +81,7 @@ const specs = [
     tbcbuffs_raid: [],
     isConfirmed: !1,
     color: "#C41E3A",
+    wowhead: "M",
   },
   {
     class: "DK",
@@ -89,6 +95,7 @@ const specs = [
     tbcbuffs_raid: [],
     isConfirmed: !1,
     color: "#C41E3A",
+    wowhead: "K",
   },
   {
     class: "DK",
@@ -102,6 +109,7 @@ const specs = [
     tbcbuffs_raid: [],
     isConfirmed: !1,
     color: "#C41E3A",
+    wowhead: "L",
   },
   {
     class: "DK",
@@ -115,6 +123,7 @@ const specs = [
     tbcbuffs_raid: [],
     isConfirmed: !1,
     color: "#C41E3A",
+    wowhead: "M",
   },
   {
     class: "Warrior",
@@ -128,6 +137,7 @@ const specs = [
     tbcbuffs_raid: [],
     isConfirmed: !1,
     color: "#C69B6D",
+    wowhead: "f",
   },
   {
     class: "Warrior",
@@ -141,6 +151,7 @@ const specs = [
     tbcbuffs_raid: [],
     isConfirmed: !1,
     color: "#C69B6D",
+    wowhead: "h",
   },
   {
     class: "Warrior",
@@ -154,6 +165,7 @@ const specs = [
     tbcbuffs_raid: [],
     isConfirmed: !1,
     color: "#C69B6D",
+    wowhead: "g",
   },
   {
     class: "Druid",
@@ -167,6 +179,7 @@ const specs = [
     tbcbuffs_raid: ["26991"],
     isConfirmed: !1,
     color: "#FF7C0A",
+    wowhead: "x",
   },
   {
     class: "Druid",
@@ -180,6 +193,7 @@ const specs = [
     tbcbuffs_raid: ["26991"],
     isConfirmed: !1,
     color: "#FF7C0A",
+    wowhead: "v",
   },
   {
     class: "Druid",
@@ -193,6 +207,7 @@ const specs = [
     tbcbuffs_raid: ["26991"],
     isConfirmed: !1,
     color: "#FF7C0A",
+    wowhead: "w",
   },
   {
     class: "Druid",
@@ -206,6 +221,7 @@ const specs = [
     tbcbuffs_raid: ["26991"],
     isConfirmed: !1,
     color: "#FF7C0A",
+    wowhead: "v",
   },
   {
     class: "Paladin",
@@ -219,6 +235,7 @@ const specs = [
     tbcbuffs_raid: ["25898", "27145", "27141", "27169", "27143", "25895"],
     isConfirmed: !1,
     color: "#F48CBA",
+    wowhead: "H",
   },
   {
     class: "Paladin",
@@ -232,6 +249,7 @@ const specs = [
     tbcbuffs_raid: ["25898", "27145", "27141", "27169", "27143", "25895"],
     isConfirmed: !1,
     color: "#F48CBA",
+    wowhead: "J",
   },
   {
     class: "Paladin",
@@ -245,6 +263,7 @@ const specs = [
     tbcbuffs_raid: ["25898", "27145", "27141", "27169", "27143", "25895"],
     isConfirmed: !1,
     color: "#F48CBA",
+    wowhead: "G",
   },
   {
     class: "Rogue",
@@ -258,6 +277,7 @@ const specs = [
     tbcbuffs_raid: [],
     isConfirmed: !1,
     color: "#FFF468",
+    wowhead: "k",
   },
   {
     class: "Rogue",
@@ -271,19 +291,7 @@ const specs = [
     tbcbuffs_raid: [],
     isConfirmed: !1,
     color: "#FFF468",
-  },
-  {
-    class: "Rogue",
-    spec: "Outlaw",
-    class_emote: "579532030086217748",
-    spec_emote: "794267634497486858",
-    role_emote: "734439523328720913",
-    templates: [5],
-    groupbuffs: [[], [], [], [], [], []],
-    groupbuffs_custom: [[], [], [], [], [], []],
-    tbcbuffs_raid: [],
-    isConfirmed: !1,
-    color: "#FFF468",
+    wowhead: "j",
   },
   {
     class: "Rogue",
@@ -297,6 +305,7 @@ const specs = [
     tbcbuffs_raid: [],
     isConfirmed: !1,
     color: "#FFF468",
+    wowhead: "m",
   },
   {
     class: "Hunter",
@@ -310,6 +319,7 @@ const specs = [
     tbcbuffs_raid: [],
     isConfirmed: !1,
     color: "#AAD372",
+    wowhead: "C",
   },
   {
     class: "Hunter",
@@ -323,6 +333,7 @@ const specs = [
     tbcbuffs_raid: ["19425"],
     isConfirmed: !1,
     color: "#AAD372",
+    wowhead: "F",
   },
   {
     class: "Hunter",
@@ -336,6 +347,7 @@ const specs = [
     tbcbuffs_raid: [],
     isConfirmed: !1,
     color: "#AAD372",
+    wowhead: "D",
   },
   {
     class: "Mage",
@@ -349,6 +361,7 @@ const specs = [
     tbcbuffs_raid: ["27127"],
     isConfirmed: !1,
     color: "#3FC7EB",
+    wowhead: "d",
   },
   {
     class: "Mage",
@@ -362,6 +375,7 @@ const specs = [
     tbcbuffs_raid: ["27127"],
     isConfirmed: !1,
     color: "#3FC7EB",
+    wowhead: "b",
   },
   {
     class: "Mage",
@@ -375,6 +389,7 @@ const specs = [
     tbcbuffs_raid: ["27127"],
     isConfirmed: !1,
     color: "#3FC7EB",
+    wowhead: "c",
   },
   {
     class: "Warlock",
@@ -388,6 +403,7 @@ const specs = [
     tbcbuffs_raid: [],
     isConfirmed: !1,
     color: "#8788EE",
+    wowhead: "z",
   },
   {
     class: "Warlock",
@@ -401,6 +417,7 @@ const specs = [
     tbcbuffs_raid: [],
     isConfirmed: !1,
     color: "#8788EE",
+    wowhead: "B",
   },
   {
     class: "Warlock",
@@ -414,6 +431,7 @@ const specs = [
     tbcbuffs_raid: [],
     isConfirmed: !1,
     color: "#8788EE",
+    wowhead: "y",
   },
   {
     class: "Priest",
@@ -427,6 +445,7 @@ const specs = [
     tbcbuffs_raid: ["25392", "32999", "39374"],
     isConfirmed: !1,
     color: "#FFFFFF",
+    wowhead: "n",
   },
   {
     class: "Priest",
@@ -440,6 +459,7 @@ const specs = [
     tbcbuffs_raid: ["25392", "39374"],
     isConfirmed: !1,
     color: "#FFFFFF",
+    wowhead: "p",
   },
   {
     class: "Priest",
@@ -453,19 +473,7 @@ const specs = [
     tbcbuffs_raid: ["25392", "39374"],
     isConfirmed: !1,
     color: "#FFFFFF",
-  },
-  {
-    class: "Priest",
-    spec: "Smite",
-    class_emote: "579532029901799437",
-    spec_emote: "887257034066653184",
-    role_emote: "592438128057253898",
-    templates: [1, 2, 3, 4],
-    groupbuffs: [[], [], [], [], [], []],
-    groupbuffs_custom: [[], [], [], [], [], []],
-    tbcbuffs_raid: ["25392", "32999", "39374"],
-    isConfirmed: !1,
-    color: "#FFFFFF",
+    wowhead: "q",
   },
   {
     class: "Shaman",
@@ -479,6 +487,7 @@ const specs = [
     tbcbuffs_raid: [],
     isConfirmed: !1,
     color: "#0070DD",
+    wowhead: "r",
   },
   {
     class: "Shaman",
@@ -492,6 +501,7 @@ const specs = [
     tbcbuffs_raid: [],
     isConfirmed: !1,
     color: "#0070DD",
+    wowhead: "t",
   },
   {
     class: "Shaman",
@@ -505,6 +515,7 @@ const specs = [
     tbcbuffs_raid: [],
     isConfirmed: !1,
     color: "#0070DD",
+    wowhead: "s",
   },
 ];
 export default specs;

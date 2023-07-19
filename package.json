@@ -16,6 +16,7 @@
     "prettier": "^2.8.6"
   },
   "dependencies": {
-    "cobalt": "github:Xenon-co/cobalt"
+    "cobalt": "github:Xenon-co/cobalt",
+    "lodash": "^4.17.21"
   }
 }

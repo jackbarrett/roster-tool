@@ -252,6 +252,7 @@ const rules = [
     selectors: [
       {
         class: "Warlock",
+        spec: "Affliction",
       },
       {
         class: "Mage",
@@ -299,8 +300,16 @@ const rules = [
         spec: "Shadow",
       },
       {
+        class: "Warlock",
+        spec: "Demonology",
+      },
+      {
         class: "Shaman",
         spec: "Elemental",
+      },
+      {
+        class: "Warlock",
+        spec: "Destruction",
       },
       {
         class: "Paladin",

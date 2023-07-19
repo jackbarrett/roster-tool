@@ -1,6 +1,8 @@
 import signups from "../data/signups.js";
 import rules from "../data/rules.js";
 import config from "../data/config.js";
+import specs from "../data/specs.js";
+import _ from "lodash";
 function logProgress(groups) {
   console.log(
     groups.map(({ players }) => {
@@ -155,3 +157,13 @@ function generate() {
 }
 const data = generate();
 console.log(JSON.stringify(data, null, 2));
+for (const group of data) {
+  let sp = "";
+  let names = "";
+  for (const player of group.players) {
+    const spec = _.find(specs, { spec: player.spec });
+    sp += spec.wowhead;
+    names += `${player.name};`;
+  }
+  console.log(`wowhead.com/wotlk/raid-composition#0${sp};${names}`);
+}
