@@ -264,7 +264,7 @@ class RosterTool extends PolymerElement {
   createPlayer(){
     this.edit={player:{
       id:genId(),
-      userId:genId(),
+      userid:genId(),
       spec:null,
       name:"",
     },path:"sidelines"};
