@@ -409,6 +409,7 @@ class RosterTool extends PolymerElement {
     if(this.ruleIndex>=rules.length){
       this.ruleIndex=0;
     }
+    toast({message:`Finished step ${rule.name}`});
   }
   generate() {
     const _players = _.clone(this.sidelines);
