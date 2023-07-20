@@ -84,6 +84,7 @@ class RosterContainer extends PolymerElement {
     return {
       name: {
         type: String,
+        notify:true,
         value: "",
       },
       groupCount: {
