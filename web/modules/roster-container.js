@@ -111,7 +111,7 @@ class RosterContainer extends PolymerElement {
   _dualBoxCheck(player, slots) {
     if (player && slots) {
       for (const slot of slots) {
-        if (!_.isEqual(player,slot.player) && slot.player?.userid == player.userid) {
+        if (!_.isEqual(player,slot.player) && player.userid && slot.player?.userid == player.userid) {
           return true;
         }
       }
