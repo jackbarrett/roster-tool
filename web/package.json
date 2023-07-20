@@ -25,6 +25,10 @@
     "@polymer/paper-styles": "^3.0.1",
     "@polymer/polymer": "^3.5.1",
     "cobalt-file-upload": "github:Xenon-co/cobalt-file-upload",
+    "cobalt-form": "github:Xenon-co/cobalt-form",
+    "cobalt-localized": "github:Xenon-co/cobalt-localized",
+    "cobalt-popup": "github:Xenon-co/cobalt-popup",
+    "cobalt-select": "github:Xenon-co/cobalt-select",
     "cobalt-utils": "github:Xenon-co/cobalt-utils",
     "lodash": "^4.17.21"
   }

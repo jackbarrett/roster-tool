@@ -1,6 +1,9 @@
 import { PolymerElement, html } from "@polymer/polymer/polymer-element.js";
 import "@polymer/paper-styles/typography.js";
 import { fire, sleep } from "cobalt-utils/cobalt-utils.js";
+import "@polymer/paper-icon-button/paper-icon-button.js";
+import "@polymer/iron-icons/iron-icons.js";
+import _ from "lodash/lodash.js";
 
 class Player extends PolymerElement {
   static get is() {
@@ -18,6 +21,7 @@ class Player extends PolymerElement {
           @apply --layout-center;
           background-color: #333;
           color: #ccc;
+          position: relative;
         }
         .icon {
           height: 40px;
@@ -31,6 +35,7 @@ class Player extends PolymerElement {
           margin: 0 4px;
           overflow: hidden;
           text-overflow: ellipsis;
+          @apply --layout-flex;
         }
         :host([is-dual-box]) {
           border-color: var(--paper-red-500);
@@ -42,6 +47,7 @@ class Player extends PolymerElement {
         </template>
       </div>
       <div class="name">[[player.name]]</div>
+      <paper-icon-button icon="create" on-tap="_edit"></paper-icon-button>
     `;
   }
   static get properties() {
@@ -96,6 +102,9 @@ class Player extends PolymerElement {
         },
       },
     };
+  }
+  _edit(){
+    fire(this,"player-edit",{player:_.clone(this.player),element:this});
   }
   connectedCallback() {
     super.connectedCallback();
