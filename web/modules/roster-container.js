@@ -132,8 +132,13 @@ class RosterContainer extends PolymerElement {
       }
     }
     try {
-      await navigator.clipboard.writeText(`wowhead.com/wotlk/raid-composition#0${sp};${names}`);
-      toast({ message: "link copied to clipboard" });
+      const url=`wowhead.com/wotlk/raid-composition#0${sp};${names}`;
+      if(navigator.clipboard){
+        await navigator.clipboard.writeText(url);
+        toast({ message: "link copied to clipboard" });
+      }else{
+        window.open(url);
+      }
     } catch (err) {
       console.error(err);
     }
