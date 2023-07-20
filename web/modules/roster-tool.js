@@ -294,12 +294,33 @@ class RosterTool extends PolymerElement {
       _.assign(this.edit.player,{class_emote,spec_emote,role_emote,class:klass});
     }
     const player=this.edit.player;
+    const userid=this._findUserIdByName(player.name);
+    if(userid){
+      player.userid=userid;
+    }
     if(this.edit.element){
       this.edit.element.player=player;
     }else if(this.edit.path){
       this.splice(this.edit.path,0,0,player);
     }
     this.shadowRoot.querySelector("#player-popup").hide();
+  }
+  _findUserIdByName(name){
+    let player=_.find(this.sidelines,{name});
+    if(player){
+      return player.userid;
+    }
+    player=_.find(this.bench,{name});
+    if(player){
+      return player.userid;
+    }
+    for(const roster of this.rosters){
+      for(const {player} of roster.slots){
+        if(player?.name==name){
+          return player?.userid;
+        }
+      }
+    }
   }
   async _prepRosters(numRaids, groupsPerRoster) {
     numRaids=parseInt(numRaids);
