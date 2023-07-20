@@ -1,0 +1,31 @@
+{
+  "name": "web",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "eslint-plugin-html": "^7.1.0",
+    "node-fetch": "^3.3.1",
+    "prettier": "^2.8.6"
+  },
+  "dependencies": {
+    "@polymer/iron-flex-layout": "^3.0.1",
+    "@polymer/iron-icons": "^3.0.1",
+    "@polymer/paper-button": "^3.0.1",
+    "@polymer/paper-icon-button": "^3.0.2",
+    "@polymer/paper-input": "^3.2.1",
+    "@polymer/paper-ripple": "^3.0.2",
+    "@polymer/paper-styles": "^3.0.1",
+    "@polymer/polymer": "^3.5.1",
+    "cobalt-file-upload": "github:Xenon-co/cobalt-file-upload",
+    "cobalt-utils": "github:Xenon-co/cobalt-utils",
+    "lodash": "^4.17.21"
+  }
+}

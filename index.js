@@ -5,10 +5,11 @@ import URL from "url";
 const dirname = path.dirname(URL.fileURLToPath(import.meta.url));
 (async () => {
   server.config = {
+    cacheFiles:false,
     root: [
       {
         host: /.*/,
-        path: dirname + "/www",
+        path: dirname + "/web",
       },
     ],
     ports: {
